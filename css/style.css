@@ -33,12 +33,20 @@
     height: 100vh;
     /* border: 2px solid gray; */
     background-image: url(../images/background.png),linear-gradient(45deg,#0f0f0f,#5f5e5e);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 .banner-img{
     width: 300px;
 }
 .title{
     font-size: 55px;
+    font-weight: bold;
+}
+.title1{
+    font-size: 30px;
     font-weight: bold;
 }
 .description{
@@ -56,4 +64,15 @@
 .btn:hover{
     background-color: aqua;
     cursor: pointer;
+}
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    padding: 15px;
+}
+.about-title{
+    text-align: center;
+    padding-top: 20px;
 }
