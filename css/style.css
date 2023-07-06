@@ -76,3 +76,46 @@
     text-align: center;
     padding-top: 20px;
 }
+.box{
+    width: 200px;
+    height: 280px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: rgb(172, 167, 167);
+    text-align: center;
+    padding: 15px;
+    color: aqua;
+}
+.icon{
+    width: 60px;
+}
+.box-btn{
+    background-color: gray;
+    margin-top: 10px;
+}
+.title-box{
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.box-desciption{
+    padding: 5px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #2e0a0a;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+    padding: 20px;
+    height: 280px;
+    background-color: azure;
+}
+.last-class{
+    text-align: center;
+    margin-top: 20px;
+}
