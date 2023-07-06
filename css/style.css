@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.manu-container{
+    background-color: rgb(49, 49, 49);
+    padding: 20px;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo-photo{
+    width: 120px;
+}
+.manus{
+    display: flex;
+    cursor: pointer;
+}
+.item{
+    margin-left: 10px;
+    font-size: 18px;
+}
+.item:hover{
+    color: rgb(14, 14, 226);
+    /* background-color: aqua; */
+}
