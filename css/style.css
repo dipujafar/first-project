@@ -26,3 +26,34 @@
     color: rgb(14, 14, 226);
     /* background-color: aqua; */
 }
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    /* border: 2px solid gray; */
+    background-image: url(../images/background.png),linear-gradient(45deg,#0f0f0f,#5f5e5e);
+}
+.banner-img{
+    width: 300px;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: wheat;
+    border: none;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
